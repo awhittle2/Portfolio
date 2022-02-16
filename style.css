@@ -44,3 +44,21 @@ h1, h2, h3, p { /* Setting the margin to 0 */
     color: var(--clr-accent);
     padding-bottom: 1000px;
 }
+
+ /* About section */
+
+.about {
+    text-align: center;
+}
+
+ /* Skills section */
+
+.skills {
+    text-align: center;
+}
+
+ /* Projects section */
+ 
+.projects {
+    text-align: center;
+}
