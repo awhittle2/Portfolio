@@ -1,0 +1,70 @@
+:root {
+    /* Color pallet */
+    --clr-accent: #ff8a65;
+    --clr-dark: #303030;
+    --clr-light: #fff;
+
+    /* Fonts Used */
+    --ff-primary: 'Roboto', sans-serif; /* Font that I imported */
+    --ff-secondary: 'Roboto Mono', monospace;
+
+    /* Font sizes */
+    --fs-h1: 5.5rem;
+    --fs-h2: 4.25rem;
+    --fs-h3: 3.15rem;
+    --fs-p: 2.05rem;
+
+    /* Margins */
+    --m-h1: 1rem;
+    --m-h2: .5rem;
+    --m-h3: .25rem;
+    --m-p: .15rem;
+}
+
+/* Typography and formatting for html tags */
+
+body { /* Base formatting outline for all pages */
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+    text-align: center;
+}
+
+h1 { /* Header 1 */
+    font-size: var(--fs-h1);
+    margin: var(--m-h1);
+}
+
+h2 { /* Header 2 */
+    font-family: var(--fs-secondary);
+    font-size: var(--fs-h2);
+    margin: var(--m-h2);
+}
+
+h3 { /* Header 3 */
+    font-size: var(--fs-h3);
+    margin: var(--m-h3);
+}
+
+p { /* Paragraph */
+    font-size: var(--fs-p);
+    margin: var(--m-p);
+}
+
+.front-page { /* Formatting for the div front page */
+}
+
+#moon {
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+#front-page-title {
+    margin-top: 350px;
+}
+
+#front-page-subtitle { /* Formatting for the front page subtitle */
+    color: var(--clr-accent);
+}
