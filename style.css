@@ -1,20 +1,24 @@
 :root {
     /* Color pallet */
-    --clr-accent: #ff8a65;
+    --clr-accent: #B83B5E;
+    --clr-accent-light: #F08A5D;
+    --clr-dark: #6A2C70;
+    --clr-light: #F9ED69;
 
     /* Fonts Used */
-    --ff-primary: 'Roboto', sans-serif; /* Font that I imported */
+    --ff-primary: 'Nunito', sans-serif; /* Font that I imported */
     --ff-secondary: 'Roboto Mono', monospace;
-
-    /* Font sizes */
-    --fs-h1: 5.5rem;
-    --fs-h2: 4.25rem;
-    --fs-h3: 3.15rem;
-    --fs-p: 2.05rem;
 
 }
 
 /* Typography and formatting for html tags */
+
+html {
+    background-color: black;
+    color: white;
+    font-family: var(--ff-primary);
+    scroll-behavior: smooth;
+}
 
 body { /* Base formatting outline for all pages */
     background-color: black;
@@ -23,8 +27,24 @@ body { /* Base formatting outline for all pages */
 }
 
 
-h1, h2, h3, p { /* Setting the margin to 0 */
+h1 { /* Setting the margin to 0 */
+    font-weight: bold;
     margin: 0;
+    padding: 8rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: var(--clr-accent-light);
+    font-weight: bold;
+}
+
+p {
+    line-height: 2;
+}
+
+.navbar-brand {
+    color: var(--clr-accent-light);
 }
 
 /* Formatting for the div front page */
@@ -35,30 +55,129 @@ h1, h2, h3, p { /* Setting the margin to 0 */
     text-align: center;
 }
 
+#shooting-star {
+    position: relative;
+}
+
 #front-page-title {
     color: white;
-    padding-top: 500px;
+    padding: 200px 0 0 0;
 }
 
 #front-page-subtitle { /* Formatting for the front page subtitle */
-    color: var(--clr-accent);
-    padding-bottom: 1000px;
+    color: var(--clr-accent-light);
+    padding-bottom: 445px;
+}
+
+#moon {
+    position: absolute;
+    transform: translateX(-200px); /* DONT TOUCH */
+    top: 775px;
+}
+
+#moon:hover {
+    cursor: pointer;
 }
 
  /* About section */
 
 .about {
+    background-color: var(--clr-accent);
+    color: var(--clr-white);
     text-align: center;
+    padding-bottom: 8%;
+    width: 100%
+}
+
+#about-title {
+    color: var(--clr-light);
+    padding: 16rem 0 4% 0;
 }
 
  /* Skills section */
 
 .skills {
+    background-color: var(--clr-accent-light);
+    margin: 0;
+    padding: 5% 0 5% 0;
     text-align: center;
+}
+
+#skills-title {
+    color: var(--clr-dark);
+    padding-bottom: 2%;
+}
+
+/* Technology section */
+.technologies {
+    background-color: var(--clr-dark);
+    margin: 0;
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+
+#technologies-title {
+    padding-bottom: 2%;
 }
 
  /* Projects section */
  
 .projects {
+    background-image: url(https://media3.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e47eeylkumseu21z3gq6n0nvia2l8k5n4b39f3xzw0e&rid=giphy.gif&ct=g);
     text-align: center;
+    padding: 6% 0 6% 0;
+}
+
+#projects-title {
+    color: white;
+    padding-bottom: 4%;
+}
+
+.project-github {
+    color: var(--clr-dark);
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #212121;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.email {
+    color: var(--clr-accent);
+    font-size: 1.25rem;
+}
+
+.social {
+    color: var(--clr-accent);
+    margin: 2rem 2.75rem 0 2.75rem;
+}
+
+.carousel-item {
+    padding: 6% 15% 6% 15%;
+    text-align: center;
+}
+
+.carousel-1 {
+    background-color: var(--clr-accent);
+}
+
+.carousel-2 {
+    background-color: var(--clr-accent-light);
+}
+
+.carousel-title-1 {
+    color: var(--clr-light);
+}
+
+.carousel-title-2 {
+    color: var(--clr-dark);
 }
