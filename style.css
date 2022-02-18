@@ -47,9 +47,11 @@ p {
 
 .front-page {
     background-image: url(https://media3.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e47eeylkumseu21z3gq6n0nvia2l8k5n4b39f3xzw0e&rid=giphy.gif&ct=g);
+    maring: 0 auto;
 }
 
 #shooting-star {
+    opacity: 0.5;
     position: relative;
 }
 
