@@ -40,7 +40,7 @@ h2 {
 }
 
 p {
-    line-height: 2;
+    line-height: 2.5;
 }
 
 /* Formatting for the div front page */
@@ -117,46 +117,29 @@ p {
     padding-bottom: 4%;
 }
 
-.project-github {
-    color: var(--clr-dark);
-    margin: 0 auto;
-    text-decoration: none;
-}
-
 /* FOOTER */
 
 footer {
     background-color: black;
     color: var(--clr-light);
     font-size: 1.5rem;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 4rem 0;
+    text-align: center; /* DO NOT TOUCH THIS EITHER */
     text-decoration: none;
 }
 
-.email {
-    font-size: 1.25rem;
+#footer-title {
+    padding: 3rem 0 3rem 0;
 }
 
 .social {
+    color: var(--clr-light);
+    display: inline-block;
     margin: 2rem 2.75rem 0 2.75rem;
 }
 
-.carousel-item {
-    padding: 6% 15% 6% 15%;
-}
-
-.carousel-1 {
-    background-color: var(--clr-accent);
-}
-
-.carousel-2 {
-    background-color: var(--clr-accent-light);
-}
-
-.carousel-title-1 {
-    color: var(--clr-light);
-}
-
-.carousel-title-2 {
+.project-github {
     color: var(--clr-dark);
+    margin: 0 auto;
+    text-decoration: none;
 }
