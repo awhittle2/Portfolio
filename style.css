@@ -134,12 +134,10 @@ footer {
 }
 
 .email {
-    color: var(--clr-accent);
     font-size: 1.25rem;
 }
 
 .social {
-    color: var(--clr-accent);
     margin: 2rem 2.75rem 0 2.75rem;
 }
 
