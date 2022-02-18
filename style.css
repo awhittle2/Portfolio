@@ -56,18 +56,18 @@ p {
 }
 
 #front-page-title {
-    padding: 200px 0 0 0;
+    padding: 12.5rem 0 0 0;
 }
 
 #front-page-subtitle { /* Formatting for the front page subtitle */
     color: var(--clr-light);
-    padding-bottom: 445px;
+    padding-bottom: 27.813rem;
 }
 
 #moon {
     position: absolute;
-    transform: translateX(-200px); /* DONT TOUCH */
-    top: 775px;
+    transform: translateX(-12.5rem); /* DONT TOUCH */
+    top: 48.438rem;
 }
 
 #moon:hover {
