@@ -56,7 +56,7 @@ p {
 
 /* Formatting for the div front page */
 
-.navbar-title {
+.navbar-title-index, #navbar-title-project-1, #navbar-title-project-2, #navbar-title-project-3, #navbar-title-extras {
     color: var(--clr-light);
 }
 
