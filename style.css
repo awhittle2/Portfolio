@@ -56,13 +56,12 @@ p {
 
 /* Formatting for the div front page */
 
-#website-name {
-    color: var(--clr-light);
-}
-
 #navbar {
     width: 100%;
-    display: inline-block;
+}
+
+#navbar-title {
+    color: var(--clr-light);
 }
 
 .front-page {
