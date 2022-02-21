@@ -24,39 +24,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto+Mono&family=Roboto:wght@300;500&display=swap" rel="stylesheet"> <!-- Adds my google fonts -->
 </head>
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> <!-- Navigation bar used from boot strap -->
-            <div class="container-fluid">
-                <a class="navbar-brand">Abi's Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="extras.html">Extras</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="project-1.html">Project 1</a></li>
-                      <li><a class="dropdown-item" href="project-2.html">Project 2</a></li>
-                      <li><a class="dropdown-item" href="project-3.html">Project 3</a></li>
-                    </ul>
-                  </li>
+  <header class = "header"> <!-- Header to hold the navigation bar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar"> <!-- Navigation bar used from boot strap -->
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-title">Abi's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Resume.pdf">Resume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="project-1.html">Project 1</a></li>
+                  <li><a class="dropdown-item" href="project-2.html">Project 2</a></li>
+                  <li><a class="dropdown-item" href="project-3.html">Project 3</a></li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Extras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="extras.html#courses">Courses</a></li>
+                  <li><a class="dropdown-item" href="extras.html#clubs">Clubs</a></li>
+                  <li><a class="dropdown-item" href="extras.html#hackathons">Hackathons</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
     
     <div class = "container">
       <h1>Project 1</h1>
@@ -93,15 +100,13 @@
     </div>
 
     <footer class = "footer">
-      <a href = "mailto:whittleabigail@gmail.com " class = "email">whittleabigail@gmail.com</a>
-      <ul class = "social-list">
-          <a class = "social" href = "https://github.com/awhittle2">
-          <i class = "fa-brands fa-github"></i></a>
-          <a class = "social" href = "https://www.linkedin.com/in/awhittle2/">
-          <i class="fa-brands fa-linkedin"></i></a>
-          <a class = "social" href = "https://codepen.io/awhittle2">
-          <i class="fa-brands fa-codepen"></i></i></a>
-      </ul>
-  </footer>
+      <h2 id = "footer-title">Contact Me</h2>
+      <a class = "social" href = "mailto:whittleabigail@gmail.com">
+      <h2><i class="fa-solid fa-envelope"></i></h2></a>
+      <a class = "social" href = "https://github.com/awhittle2">
+      <h2><i class = "fa-brands fa-github"></i></h2></a>
+      <a class = "social" href = "https://www.linkedin.com/in/awhittle2/">
+      <h2><i class="fa-brands fa-linkedin"></i></h2></a>
+    </footer>
 </body>
 </html>
