@@ -56,6 +56,15 @@ p {
 
 /* Formatting for the div front page */
 
+#website-name {
+    color: var(--clr-light);
+}
+
+#navbar {
+    width: 100%;
+    display: inline-block;
+}
+
 .front-page {
     background-image: url(https://media3.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e47eeylkumseu21z3gq6n0nvia2l8k5n4b39f3xzw0e&rid=giphy.gif&ct=g);
     text-align: center; /* DO NOT TOUCH THIS OR IT WILL RUIN THE MOON */
