@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 { /* Setting the margin to 0 */
     font-weight: bold;
     margin: 0;
     text-align: center;
+    padding-bottom: 6%;
 }
 
 h1 {
@@ -93,49 +94,58 @@ p {
 
 .about {
     background-color: var(--clr-accent);
-    padding-bottom: 8%;
+    padding: 16rem 10% 8% 10%; /* Keeps the moon stationary so it looks good in mobile and adds padding to prevent going up to the edges*/
 }
 
-#about-title {
-    padding: 16rem 0 4% 0;
+ /* Skills and technology section */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
- /* Skills section */
+.skills, .technologies { /*Custom padding for skills and technologies to keep them the same size*/
+    padding: 20% 0 20% 0;
+}
 
-.skills {
+.skills { /*Back ground color of skills*/
     background-color: var(--clr-accent-light);
-    padding: 5% 0 5% 0;
 }
 
-#skills-title {
-    padding-bottom: 2%;
-}
-
-/* Technology section */
-.technologies {
+.technologies { /*Back ground color of technologies*/
     background-color: var(--clr-dark);
-    padding: 5% 0 5% 0;
 }
 
-#technologies-title {
-    padding-bottom: 2%;
+@media (max-width: 1000px) {
+    .wrapper {
+        display: block;
+    }
+    .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size while looking good on mobile*/
+        padding: 7% 0 7% 0;
+    }
 }
 
  /* Projects section */
- 
+
 .projects {
     background-image: url(stars.gif);
-    padding: 6% 0 6% 0;
+    padding: 8% 10% 8% 10%;
 }
 
-#projects-title {
-    padding-bottom: 4%;
-}
+ @media (max-width: 1000px) {
+    #last-project-box { /* Centers the last box when on it's own line*/
+        margin: 0 auto;
+    }
+
+    .project-box { /* Adds a padding bottom so all the boxes aren't touching*/
+        margin-bottom: 6%;
+    }
+ }
 
 /* FOOTER */
 
 footer {
-    background-color: black;
+    background-color: #292b2c;
     color: var(--clr-light);
     font-size: 1.5rem;
     padding: 2rem 0 4rem 0;
