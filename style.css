@@ -60,10 +60,6 @@ p {
 
 /* Formatting for the div front page */
 
-#navbar-title-index, #navbar-title-project-1, #navbar-title-project-2, #navbar-title-project-3, #navbar-title-extras {
-    color: var(--clr-light);
-}
-
 .front-page {
     background-image: url(stars.gif);
     text-align: center; /* DO NOT TOUCH THIS OR IT WILL RUIN THE MOON */
