@@ -81,7 +81,7 @@ p {
 
 #moon {
     position: absolute;
-    transform: translateX(-12.5rem); /* DONT TOUCH */
+    transform: translateX(-12.5rem);/* DONT TOUCH */
     top: 48.438rem;
 }
 
