@@ -22,6 +22,7 @@ body { /* Base formatting outline for all pages */
     color: white;
     font-family: var(--ff-primary);
     margin: 0;
+    overflow-y: hidden;
 }
 
 /* hide scrollbar but allow scrolling */
