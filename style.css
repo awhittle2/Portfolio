@@ -103,9 +103,9 @@ p {
     grid-template-columns: 40% 60%;
 }
 
-/* .skills, .technologies { Custom padding for skills and technologies to keep them the same size
+.skills, .technologies { /*Custom padding for skills and technologies to keep them the same size*/
     padding: 16% 0 16% 0;
-} */
+}
 
 .skills { /*Back ground color of skills*/
     background-color: var(--clr-accent-light);
@@ -120,7 +120,7 @@ p {
         display: block;
     }
     .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size while looking good on mobile*/
-        padding: 20rem 0 20rem 0;
+        padding: 7% 0 7% 0;
     }
 }
 
