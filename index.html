@@ -24,7 +24,34 @@
 </head>
 <body>
     <header class = "header"> <!-- Header to hold the navigation bar-->
-  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Resume.pdf">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">Contact Me</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Project 1</a></li>
+                      <li><a class="dropdown-item" href="#">Project 2</a></li>
+                      <li><a class="dropdown-item" href="#">Project 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <div class = "front-page" id = "home"> <!-- Front page of website-->
@@ -49,7 +76,7 @@
         </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" id="skills">
       <div class = "skills">
         <h2 id = "skills-title">Languages</h2>
         <div class = "row">
@@ -102,14 +129,14 @@
             <div class ="row">
                 <div class = "col-lg-4 col-md-6 project-box">
                     <div class="card text-white bg-dark text-left">
-                        <img src="project-1.png" class="card-img-top" alt="...">
+                        <img src="project-1.png" class="card-img-top" id="" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Project 1</h5>
                           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                               tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                               tempor incididunt ut labore et dolore magna aliqua.</p>
                           <a href="project-1.html" class="btn btn-outline-light">View Project</a>
-                          <a href="project-1.html" class="btn btn-outline-light">View Code</a>
+                          <a href="project-1.html" class="btn btn-outline-secondary">View Code</a>
                         </div>
                       </div>
                 </div>
@@ -122,7 +149,7 @@
                                tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                tempor incididunt ut labore et dolore magna aliqua.</p>
                           <a href="project-2.html" class="btn btn-outline-light">View Project</a>
-                          <a href="project-2.html" class="btn btn-outline-light">View Code</a>
+                          <a href="project-2.html" class="btn btn-outline-secondary">View Code</a>
                         </div>
                       </div>
                 </div>
@@ -135,7 +162,7 @@
                               tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                               tempor incididunt ut labore et dolore magna aliqua.</p>
                           <a href="project-3.html" class="btn btn-outline-light">View Project</a>
-                          <a href="project-1.html" class="btn btn-outline-light">View Code</a>
+                          <a href="project-1.html" class="btn btn-outline-secondary">View Code</a>
                         </div>
                       </div>
                 </div>
@@ -143,7 +170,7 @@
         </div>
     </div>
 
-    <footer class = "footer">
+    <footer class = "footer" id="contact-me">
       <h2 id = "footer-title">Contact Me</h2>
       <a class = "social" href = "mailto:whittleabigail@gmail.com">
       <h2><i class="fa-solid fa-envelope"></i></h2></a>

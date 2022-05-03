@@ -71,18 +71,18 @@ p {
 }
 
 #front-page-title {
-    padding: 12.5rem 0 0 0;
+    padding: 23rem 0 0 0;
 }
 
 #front-page-subtitle { /* Formatting for the front page subtitle */
     color: var(--clr-light);
-    padding-bottom: 27.813rem;
+    padding-bottom: 50rem;
 }
 
 #moon {
     position: absolute;
     transform: translateX(-12.5rem);/* DONT TOUCH */
-    top: 48.438rem;
+    top: 50rem;
 }
 
 #moon:hover {
@@ -104,7 +104,7 @@ p {
 }
 
 .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size*/
-    padding: 20% 0 20% 0;
+    padding: 16% 0 16% 0;
 }
 
 .skills { /*Back ground color of skills*/
@@ -144,7 +144,7 @@ p {
 /* FOOTER */
 
 footer {
-    background-color: #292b2c;
+    background-color: var(--bs-dark);
     color: var(--clr-light);
     font-size: 1.5rem;
     padding: 2rem 0 4rem 0;
@@ -172,4 +172,8 @@ footer {
     text-align: left;
     text-decoration: underline;
     padding-bottom: .75em;
+}
+
+.card-img-top {
+    height: 20rem;
 }
