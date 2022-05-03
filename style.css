@@ -100,7 +100,7 @@ p {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 33.33% 66.66%;
+    grid-template-columns: 40% 60%;
 }
 
 .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size*/
