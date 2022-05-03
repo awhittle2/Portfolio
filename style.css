@@ -120,7 +120,7 @@ p {
         display: block;
     }
     .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size while looking good on mobile*/
-        padding: 10rem 0 10rem 0;
+        padding: 20rem 0 20rem 0;
     }
 }
 
