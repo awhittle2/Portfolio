@@ -141,6 +141,10 @@ p {
     }
  }
 
+ .btn-secondary {
+     margin-right: 7px;
+ }
+
 /* FOOTER */
 
 footer {
