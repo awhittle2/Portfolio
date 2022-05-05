@@ -132,10 +132,6 @@ p {
 }
 
  @media (max-width: 1000px) {
-    #last-project-box { /* Centers the last box when on it's own line*/
-        margin: 0 auto;
-    }
-
     .project-box { /* Adds a padding bottom so all the boxes aren't touching*/
         margin-bottom: 6%;
     }
