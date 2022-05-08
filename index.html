@@ -9,12 +9,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <script src="https://kit.fontawesome.com/762cb16d58.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/762cb16d58.js" crossorigin="anonymous"></script> <!-- Links Font Awesome -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- Adds bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!-- Bootstrap js -->
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Links my style sheet-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,34 +24,28 @@
 </head>
 <body>
     <header class = "header"> <!-- Header to hold the navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#home">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Bootstrap theme-->
+            <div class="container-fluid"> <!-- Bootstrap required-->
+              <a class="navbar-brand" href="index.html#home">Home</a> <!-- Links back to home-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <!-- Button when the screen is too small-->
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Resume.pdf">Resume</a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!-- Navbar type-->
+                <ul class="navbar-nav"> <!-- Nav bar list-->
+                  <li class="nav-item"> <!-- Item 1 - Shows up as active-->
+                    <a class="nav-link active" aria-current="page" href="Resume.pdf">Resume</a> <!-- Links to my resume-->
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/awhittle2/">LinkedIn</a>
+                  <li class="nav-item"> <!-- Item 2-->
+                    <a class="nav-link" href="https://www.linkedin.com/in/awhittle2/">LinkedIn</a> <!-- Links to my LinkedIn-->
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/awhittle2">GitHub</a>
+                  <li class="nav-item"> <!-- Item 3-->
+                    <a class="nav-link" href="https://github.com/awhittle2">GitHub</a> <!-- Links to my GitHub-->
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="https://github.com/awhittle2/NFL-Pamphlet">NFL Agile Project</a></li>
-                      <li><a class="dropdown-item" href="#">Binary to Decimal Converter</a></li>
-                      <li><a class="dropdown-item" href="#">Potato Clicker</a></li>
-                      <li><a class="dropdown-item" href="https://github.com/awhittle2/Simon-Game">Simon Game</a></li>
-                      <li><a class="dropdown-item" href="https://github.com/awhittle2/Drum-Kit">Drum Kit</a></li>
-                    </ul>
+                  <li class="nav-item"> <!-- Item 4-->
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                  </li>
+                  <li class="nav-item"> <!-- Item 4-->
+                    <a class="nav-link" href="index.html#games">Games</a>
                   </li>
                 </ul>
               </div>
@@ -60,140 +54,157 @@
     </header>
 
     <div class = "front-page" id = "home"> <!-- Front page of website-->
-        <h1 id = front-page-title>I'm Abi</h1>
-        <h3 id = "front-page-subtitle">a designer and developer</h3>
-        <a href="#about-me"><img id = "moon" src="moon.png" width="400" height="400" alt = "moon.png"></a>
+        <h1 id = front-page-title>I'm Abi</h1> <!-- Section header-->
+        <h3 id = "front-page-subtitle">a designer and developer</h3> <!-- Section sub header-->
+        <a href="#about-me"><img id = "moon" src="moon.png" width="400" height="400" alt = "moon.png"></a> <!-- Moon mage links to about me-->
     </div>
 
-    <div class = "about" id = "about-me" style = "width: 100%"> <!-- About me section -->
-        <div class = "container">
-            <h2 id = "about-title">About Me</h2>
+    <!-- About Me Section-->
+    <div class = "about">
+        <div class = "container"> <!-- Container to make sure the edges will not touch the edge of the screen-->
+            <h2 id = "about-title">About Me</h2> <!-- Section header-->
             <p>I'm a computer science student who's originally from Southern California. However, after studying at Saddleback Community College 
             for two years, I was accepted into Oregon State University. I hope to obtain my bachelors in Computer Science  with a minor in User 
-            Experience Research by the spring of 2025.</p>
+            Experience Research by the spring of 2025.</p> <!-- Paragraph 1-->
             <br>
-            <p></p>
-            <br>
+            <p></p> <!-- Paragraph 2-->
         </div>
     </div>
 
-    <div class="wrapper" id="skills">
-      <div class = "skills">
-        <h2 id = "skills-title">Languages</h2>
-        <div class = "row">
-            <div class = "col-sm-6">
-              <h3>c++</h3>
-            </div>
-            <div class = "col-sm-6"> 
-              <h3> css</h3>
-            </div>
-            <div class = "col-sm-6">
-              <h3> hack assembly</h3>
+    <!-- Skills Section-->
+    <div class = "skills">
+      <h2 id = "skills-title">Languages</h2> <!-- Section header-->
+      <div class = "row"> <!-- Row to store bootstrap dynamically resizing columns-->
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3>c++</h3>
           </div>
-            <div class = "col-sm-6">
-              <h3> html</h3>
-            </div>
-            <div class = "col-sm-6">
-              <h3> java</h3>
-            </div>
-            <div class = "col-sm-6">
-              <h3> javascript</h3>
-            </div>
-        </div>
-    </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> css & bootstrap</h3>
+          </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> hack assembly</h3>
+          </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> html</h3>
+          </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> java</h3>
+          </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> javascript & jquery</h3>
+          </div>
+          <div class = "col-sm-6"> <!-- Always display 2 per row-->
+            <h3> lua</h3>
+          </div>
+      </div>
 
+    <!-- Technologies Section-->
     <div class = "technologies">
-        <h2 id = "technologies-title">Technologies</h2>
-        <div class = "row">
-            <div class = "col-sm-4">
-                <h3>bootstrap</h3>
+        <h2 id = "technologies-title">Technologies</h2> <!-- Section header-->
+        <div class = "row"> <!-- Row to store bootstrap dynamically resizing columns-->
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
+              <h3>git & github</h3>
             </div>
-            <div class = "col-sm-4">
-              <h3>git/github</h3>
-            </div>
-            <div class = "col-sm-4">
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
               <h3>google workplace</h3>
             </div>
-            <div class = "col-sm-4">
-              <h3>jquery</h3>
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
+              <h3>love2d engine</h3>
             </div>
-            <div class = "col-sm-4">
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
               <h3>microsoft office</h3>
             </div>
-            <div class = "col-sm-4">
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
                 <h3>qt</h3>
             </div>
-            <div class = "col-sm-4">
-                <h3>unreal</h3>
-            </div>
-            <div class = "col-sm-4">
+            <div class = "col-sm-6"> <!-- Always display 2 per row-->
                 <h3>vs code</h3>
             </div>
-            <div class = "col-sm-4">
-              <h3>windows</h3>
+        </div>
+     </div>
+  </div>
+
+    <!-- Projects section -->
+    <div class = "projects">
+        <h2 id = "projects-title">Projects</h2> <!-- Section header-->
+        <div class ="row"> <!-- Row to store bootstrap dynamically resizing columns-->
+          <!-- NFL Project-->
+            <div class = "col-lg-4 col-md-6 project-box"> <!-- 3 per row on large screens, 2 per row on small screens-->
+                <div class="card text-white bg-dark text-left"> <!-- Card to display image + text at the bottom-->
+                    <img src="project-1.png" class="card-img-top" id="" alt="..."> <!-- Card picture-->
+                    <div class="card-body"> <!-- Div to store card text-->
+                      <h5 class="card-title">NFL Agile Project</h5> <!-- Project name-->
+                      <p class="card-text">Uses C++ and Qt</p> <!-- Project description-->
+                      <a href="https://github.com/awhittle2/NFL-Pamphlet" class="btn btn-outline-secondary">View Code</a> <!-- Link to GitHub repo-->
+                    </div>
+                  </div>
+            </div>
+          <!-- Bin to Dec Project-->
+            <div class = "col-lg-4 col-md-6 project-box"> <!-- 3 per row on large screens, 2 per row on small screens-->
+                <div class="card text-white bg-dark text-left"> <!-- Card to display image + text at the bottom-->
+                    <img src="project-1.png" class="card-img-top" alt="..."> <!-- Card picture-->
+                    <div class="card-body"> <!-- Div to store card text-->
+                      <h5 class="card-title">Binary to Decimal Converter</h5> <!-- Project name-->
+                      <p class="card-text">Uses Hack Assembly</p> <!-- Project description-->
+                      <a href="#" class="btn btn-outline-secondary">View Code</a> <!-- Link to GitHub repo-->
+                    </div>
+                  </div>
+            </div>
+          <!-- Simon Game Project-->
+            <div class = "col-lg-4 col-md-6 project-box"> <!-- 3 per row on large screens, 2 per row on small screens-->
+                <div class="card text-white bg-dark text-left"> <!-- Card to display image + text at the bottom-->
+                    <img src="Simon-picture.png" class="card-img-top" alt="..."> <!-- Card picture-->
+                    <div class="card-body"> <!-- Div to store card text-->
+                      <h5 class="card-title">Simon Game</h5> <!-- Project name-->
+                      <p class="card-text">Uses HTML, CSS, JavaScript, and jQuery.</p> <!-- Project description-->
+                      <a href="https://awhittle2.github.io/Simon-Game/" class="btn btn-secondary">View Live Site</button> <!-- Link to GitHub Pages-->
+                      <a href="https://github.com/awhittle2/Simon-Game" class="btn btn-outline-secondary">View Code</a> <!-- Link to GitHub repo-->
+                    </div>
+                  </div>
+            </div>
+          <!-- Drum Kit Project-->
+            <div class = "col-lg-4 col-md-6 project-box"> <!-- 3 per row on large screens, 2 per row on small screens-->
+              <div class="card text-white bg-dark text-left"> <!-- Card to display image + text at the bottom-->
+                  <img src="Drum-picture.png" class="card-img-top" alt="..."> <!-- Card picture-->
+                  <div class="card-body"> <!-- Div to store card text-->
+                    <h5 class="card-title">Drum Kit</h5> <!-- Project name-->
+                    <p class="card-text">Uses HTML, CSS, and JavaScript</p> <!-- Project description-->
+                    <a href="https://awhittle2.github.io/Drum-Kit/" class="btn btn-secondary">View Live Site</button> <!-- Link to GitHub Pages-->
+                    <a href="https://github.com/awhittle2/Drum-Kit" class="btn btn-outline-secondary">View Code</a> <!-- Link to GitHub repo-->
+                  </div>
+                </div>
           </div>
         </div>
     </div>
-    </div>
 
-    <div class = "projects"> <!-- Projects section -->
-        <div class = "container">
-            <h2 id = "projects-title">Projects</h2>
-            <div class ="row">
-                <div class = "col-lg-4 col-md-6 project-box">
-                    <div class="card text-white bg-dark text-left">
-                        <img src="project-1.png" class="card-img-top" id="" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">NFL Agile Project</h5>
-                          <p class="card-text">Uses C++ and Qt</p>
-                          <a href="https://github.com/awhittle2/NFL-Pamphlet" class="btn btn-outline-secondary">View Code</a>
-                        </div>
-                      </div>
-                </div>
-                <div class = "col-lg-4 col-md-6 project-box">
-                    <div class="card text-white bg-dark text-left">
-                        <img src="project-2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Binary to Decimal Converter</h5>
-                          <p class="card-text">Uses Hack Assembly</p>
-                          <a href="project-2.html" class="btn btn-outline-secondary">View Code</a>
-                        </div>
-                      </div>
-                </div>
-                <div class = "col-lg-4 col-md-6 project-box">
-                    <div class="card text-white bg-dark text-left">
-                        <img src="Simon-picture.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Simon Game</h5>
-                          <p class="card-text">Uses HTML, CSS, JavaScript, and jQuery.</p>
-                          <a href="https://awhittle2.github.io/Simon-Game/" class="btn btn-secondary">View Live Site</button>
-                          <a href="https://github.com/awhittle2/Simon-Game" class="btn btn-outline-secondary">View Code</a>
-                        </div>
-                      </div>
-                </div>
-                <div class = "col-lg-4 col-md-6 project-box">
-                  <div class="card text-white bg-dark text-left">
-                      <img src="Drum-picture.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Drum Kit</h5>
-                        <p class="card-text">Uses HTML, CSS, and JavaScript</p>
-                        <a href="https://awhittle2.github.io/Drum-Kit/" class="btn btn-secondary">View Live Site</button>
-                        <a href="https://github.com/awhittle2/Drum-Kit" class="btn btn-outline-secondary">View Code</a>
-                      </div>
-                    </div>
+    <!-- Games section-->
+    <div class = "games">
+      <h2 id = "games-title">Games</h2> <!-- Section header-->
+      <div class="row"> <!-- Row to store bootstrap dynamically resizing columns-->
+      <!-- Shooting Gallery Project-->
+        <div class = "col-lg-4 col-md-6 project-box"> <!-- 3 per row on large screens, 2 per row on small screens-->
+          <div class="card text-white bg-dark text-left"> <!-- Card to display image + text at the bottom-->
+              <img src="project-1.png" class="card-img-top" alt="..."> <!-- Card picture-->
+              <div class="card-body"> <!-- Div to store card text-->
+                <h5 class="card-title">Shooting Gallery</h5> <!-- Project name-->
+                <p class="card-text">Uses Lua and the Love2D game engine</p>  <!-- Project description-->
+                <a href="https://youtu.be/x2SakSIyI8c" class="btn btn-secondary">View Demo</button> <!-- Link to Youtube video-->
+                <a href="https://github.com/awhittle2/Shooting-Gallery#shooting-gallery" class="btn btn-outline-secondary">View Code</a> <!-- Link to GitHub repo-->
               </div>
             </div>
         </div>
+      </div>
     </div>
 
+    <!-- Footer / Contact me section-->
     <footer class = "footer" id="contact-me">
-      <h2 id = "footer-title">Contact Me</h2>
-      <a class = "social" href = "mailto:whittleabigail@gmail.com">
-      <h2><i class="fa-solid fa-envelope"></i></h2></a>
-      <a class = "social" href = "https://github.com/awhittle2">
-      <h2><i class = "fa-brands fa-github"></i></h2></a>
-      <a class = "social" href = "https://www.linkedin.com/in/awhittle2/">
-      <h2><i class="fa-brands fa-linkedin"></i></h2></a>
+      <h2 id = "footer-title">Contact Me</h2> <!-- Section header-->
+      <a class = "social" href = "mailto:whittleabigail@gmail.com"> <!-- Link to my email-->
+      <h2><i class="fa-solid fa-envelope"></i></h2></a> <!-- Email icon-->
+      <a class = "social" href = "https://github.com/awhittle2"> <!-- Link to my github-->
+      <h2><i class = "fa-brands fa-github"></i></h2></a> <!-- GitHub icon-->
+      <a class = "social" href = "https://www.linkedin.com/in/awhittle2/"> <!-- Link to my linkedin-->
+      <h2><i class="fa-brands fa-linkedin"></i></h2></a> <!-- Linkedin icon-->
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- Adds jquery -->
