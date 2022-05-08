@@ -1,179 +1,155 @@
 :root {
-    /* Color pallet */
-    --clr-accent: #1F1D36;
-    --clr-accent-light: #3F3351;
-    --clr-dark: #864879;
-    --clr-light: #E9A6A6;
+  /* Color pallet */
+  --clr-accent: #1f1d36;
+  --clr-accent-light: #3f3351;
+  --clr-dark: #864879;
+  --clr-light: #e9a6a6;
 
-    /* Fonts Used */
-    --ff-primary: 'Nunito', sans-serif; /* Font that I imported */
-    --ff-secondary: 'Roboto Mono', monospace;
-
+  /* Fonts Used */
+  --ff-primary: "Nunito", sans-serif; /* Font that I imported */
 }
 
-/* Typography and formatting for html tags */
+* {
+  /* Reset default css styles using universal selector*/
+  margin: 0; /* Removes margins*/
+  padding: 0; /* Removes padding*/
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Prevents jumping from section to section*/
 }
 
-body { /* Base formatting outline for all pages */
-    background-color: black;
-    color: white;
-    font-family: var(--ff-primary);
-    margin: 0;
-}
-
-div.disabled {
-    overflow-y: hidden;
-}
-
-/* hide scrollbar but allow scrolling */
 body {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+  /* Basic format for everything in the site*/
+  background-color: black; /* Black background*/
+  color: white; /* White text*/
+  font-family: var(--ff-primary); /* Nunito font*/
+  font-weight: bold; /* Bold text*/
+  line-height: 2.5;
+  text-align: center; /* Center align*/
+}
+
+/* hides scrollbar but still allows for scrolling */
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
 }
 
 body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
-
-
-h1, h2, h3, h4, h5, h6 { /* Setting the margin to 0 */
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
-    padding-bottom: 6%;
-}
-
-h1 {
-    padding: 8rem 2rem 2rem 2rem;
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 h2 {
-    color: var(--clr-light);
+  color: var(
+    --clr-light
+  ); /* Orange color for all subtitles and section headers*/
+  margin-bottom: 7.5%; /* Creates a custom margin bottom for all titles*/
 }
 
-p {
-    line-height: 2.5;
-}
-
-/* Formatting for the div front page */
+/* Front page */
 
 .front-page {
-    background-image: url(stars.gif);
-    text-align: center; /* DO NOT TOUCH THIS OR IT WILL RUIN THE MOON */
-}
-
-#shooting-star {
-    opacity: 0.5;
-    position: relative;
+  background-image: url(stars.gif); /* Background gif of blinking stars*/
+  text-align: center; /* DO NOT TOUCH THIS OR IT WILL RUIN THE MOON */
 }
 
 #front-page-title {
-    padding: 23rem 0 0 0;
+  padding: 25rem 0 0 0;
 }
 
-#front-page-subtitle { /* Formatting for the front page subtitle */
-    color: var(--clr-light);
-    padding-bottom: 38rem;
+#front-page-subtitle {
+  /* Formatting for the front page subtitle */
+  color: var(--clr-light);
+  padding-bottom: 35rem;
 }
 
 #moon {
-    position: absolute;
-    transform: translateX(-12.5rem);/* DONT TOUCH */
-    top: 50rem;
+  position: absolute;
+  transform: translateX(-12.5rem); /* DONT TOUCH */
+  top: 50rem;
 }
 
 #moon:hover {
-    cursor: pointer;
+  cursor: pointer; /* Tells users its clickable*/
 }
 
- /* About section */
+/* About section */
 
 .about {
-    background-color: var(--clr-accent);
-    padding: 16rem 10% 8% 10%; /* Keeps the moon stationary so it looks good in mobile and adds padding to prevent going up to the edges*/
+  background-color: var(--clr-accent);
+  padding: 16rem 10% 8% 10%; /* Keeps the moon stationary so it looks good in mobile and adds padding to prevent going up to the edges*/
 }
 
- /* Skills and technology section */
+/* Skills and technology section */
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 50%;
+.skills,
+.technologies {
+  display: grid;
+  grid-template-columns: 50%;
+  padding: 8% 10% 8% 10%;
 }
 
-.skills, .technologies { /*Custom padding for skills and technologies to keep them the same size*/
-    padding: 16% 0 16% 0;
+.skills {
+  background-color: var(--clr-accent-light); /* Pink background*/
 }
 
-.skills { /*Back ground color of skills*/
-    background-color: var(--clr-accent-light);
+.technologies {
+  background-color: var(--clr-dark); /* Purple background*/
 }
 
-.technologies { /*Back ground color of technologies*/
-    background-color: var(--clr-dark);
+/* Projects section */
+
+.projects {
+  background-image: url(stars.gif);
+  padding: 8% 16% 8% 16%;
 }
 
 @media (max-width: 1000px) {
-    .wrapper {
-        display: block;
-    }
-    .skills, .technologies { /*Custom padding for skills and technologies to keep them the same size while looking good on mobile*/
-        padding: 7% 0 7% 0;
-    }
+  .project-box {
+    /* Adds a padding bottom so all the boxes aren't touching*/
+    margin-bottom: 6%;
+  }
 }
 
- /* Projects section */
-
-.projects {
-    background-image: url(stars.gif);
-    padding: 8% 10% 8% 10%;
+.btn-secondary {
+  margin-right: 7px;
 }
 
- @media (max-width: 1000px) {
-    .project-box { /* Adds a padding bottom so all the boxes aren't touching*/
-        margin-bottom: 6%;
-    }
- }
+/* Games section*/
 
- .btn-secondary {
-     margin-right: 7px;
- }
+.games {
+  padding: 8% 16% 8% 16%;
+}
 
 /* FOOTER */
 
 footer {
-    background-color: var(--bs-dark);
-    color: var(--clr-light);
-    font-size: 1.5rem;
-    padding: 2rem 0 4rem 0;
-    text-align: center; /* DO NOT TOUCH THIS EITHER */
-    text-decoration: none;
+  background-color: var(--bs-dark);
+  color: var(--clr-light);
+  font-size: 1.5rem;
+  padding: 2rem 0 4rem 0;
+  text-align: center; /* DO NOT TOUCH THIS EITHER */
+  text-decoration: none;
 }
 
 #footer-title {
-    padding: 3rem 0 3rem 0;
+  padding: 3rem 0 3rem 0;
 }
 
 .social {
-    color: var(--clr-light);
-    display: inline-block;
-    margin: 2rem 2.75rem 0 2.75rem;
+  color: var(--clr-light);
+  display: inline-block;
+  margin: 2rem 2.75rem 0 2.75rem;
 }
 
 .project-github {
-    color: var(--clr-dark);
-    margin: 0 auto;
-    text-decoration: none;
+  color: var(--clr-dark);
+  margin: 0 auto;
+  text-decoration: none;
 }
 
 .school-name {
-    text-align: left;
-    text-decoration: underline;
-    padding-bottom: .75em;
-}
-
-.card-img-top {
-    height: 20rem;
+  text-align: left;
+  text-decoration: underline;
+  padding-bottom: 0.75em;
 }
