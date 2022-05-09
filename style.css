@@ -127,19 +127,19 @@ footer {
   background-color: var(--bs-dark);
   color: var(--clr-light);
   font-size: 1.5rem;
-  padding: 2rem 0 4rem 0;
+  padding-bottom: 2%;
   text-align: center; /* DO NOT TOUCH THIS EITHER */
   text-decoration: none;
 }
 
 #footer-title {
-  padding: 3rem 0 3rem 0;
+  padding: 2% 0 0.5rem 0;
 }
 
 .social {
   color: var(--clr-light);
   display: inline-block;
-  margin: 2rem 2.75rem 0 2.75rem;
+  margin: 0 2.75rem 0 2.75rem;
 }
 
 .project-github {
