@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abigail Whittle</title>
+    <link>https://awhittle2.com/</link>
+    <description>Recent content on Abigail Whittle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://awhittle2.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://awhittle2.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://awhittle2.com/about/</guid>
+      <description>Hello :)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://awhittle2.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://awhittle2.com/projects/</guid>
+      <description>Projects Welcome to my projects page! Here you&amp;rsquo;ll find a showcase of my diverse creations, spanning various technologies and disciplines, each designed to provide engaging experiences for a wide range of audiences.
+Mario-Inspired Platformer Duration: March 2023 - Present
+Technologies:
+ 6502 Assembly NES Architecture  Vivi&amp;rsquo;s Dreamland Adventure is a Mario like platformer game developed for the Nintendo Entertainment System (NES) using 6502 Assembly language and adhering to the classic NES architecture.</description>
+    </item>
+    
+  </channel>
+</rss>
