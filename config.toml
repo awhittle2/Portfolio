@@ -173,7 +173,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/awhittle2"
+    url  = "https://www.linkedin.com/in/awhittle2/"
 
 [menu]
   [[menu.main]]
