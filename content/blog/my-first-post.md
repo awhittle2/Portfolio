@@ -46,7 +46,8 @@ vim config.toml
 
 ```bash
 hugo server --buildDrafts
-hugo server -D```
+hugo server -D
+```
 
 6. Publish:
 
