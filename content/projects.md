@@ -1,5 +1,14 @@
-# Projects
+---
+title: "Projects"
+date: 2023-04-10T21:18:21-07:00
+draft: false
+toc: false
+images:
+tags:
+  - projects
+---
 
+# Projects
 
 Welcome to my projects page! Here you'll find a showcase of my diverse creations, spanning various technologies and disciplines, each designed to provide engaging experiences for a wide range of audiences.
 
