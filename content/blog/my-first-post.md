@@ -51,6 +51,7 @@ hugo server -D```
 6. Publish:
 
 ```bash
-hugo ```
+hugo
+```
 
 7. You're done! Congrats on completing your first introduction to hugo!!
