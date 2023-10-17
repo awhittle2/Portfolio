@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Abigail Whittle</title>
+    <link>https://www.awhittle2.com/tags/about/</link>
+    <description>Recent content in about on Abigail Whittle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 15 Oct 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.awhittle2.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Education</title>
+      <link>https://www.awhittle2.com/blog/education/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/blog/education/</guid>
+      <description>Hi there! Here is a quick glimpse into all the college courses I have taken with the most relevant ones down below. Please note that I hope to graduate from Oregon State University with my Bachelors of Science in Computer Science with a Cybersecurity focus by Spring of 2025.
+Relevant Classes CS 424 - Cybersecurity Practicum I CS 372 - Intro to Networking CS 370 - Intro to Security CS 344 - Operating Systems I CS 312 - System Administration CS 290 - Web Development CS 271 - Computer Architecture and Assembly Saddleback Community College Summer 2020 MATH 253 - Intermediate Algebra</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.awhittle2.com/about/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/about/</guid>
+      <description>Hello there! I&amp;rsquo;m Abigail Whittle a Computer Science major from Oregon State University with a specialization in Cybersecurity. Through the course of my academic journey, I&amp;rsquo;ve been privileged to receive awards such as the CyberCorp&amp;rsquo;s Scholarship for Service, Western Undergraduate Exchange, and the Durcella Shepard Smith Award, all while maintaining a 4.0 GPA.
+Presently, I work as both a Tier 1 and Tier 2 Security Analyst at Oregon State University&amp;rsquo;s ORTSOC and a Student Systems Engineer at the Open Source Lab.</description>
+    </item>
+    
+  </channel>
+</rss>

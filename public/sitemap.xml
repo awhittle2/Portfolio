@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://awhittle2.com/about/</loc>
-    <priority>0</priority>
+    <loc>https://www.awhittle2.com/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/write-ups/mini-ject/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/tags/ctf-league-fall-2023/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/tags/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/tags/web/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/write-ups/</loc>
+    <lastmod>2023-10-16T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/tags/about/</loc>
+    <lastmod>2023-10-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/blog/</loc>
+    <lastmod>2023-10-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/blog/education/</loc>
+    <lastmod>2023-10-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/about/</loc>
+    <lastmod>2023-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/write-ups/inspect_yourself/</loc>
+    <lastmod>2023-10-09T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/blog/first-post/</loc>
+    <lastmod>2023-04-10T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/tags/random/</loc>
+    <lastmod>2023-04-10T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.awhittle2.com/categories/</loc>
+  </url><url>
+    <loc>https://www.awhittle2.com/series/</loc>
   </url>
-  
-  <url>
-    <loc>https://awhittle2.com/projects/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awhittle2.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awhittle2.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awhittle2.com/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awhittle2.com/tags/</loc>
-  </url>
-  
 </urlset>

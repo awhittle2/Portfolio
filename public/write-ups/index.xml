@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Write-ups on Abigail Whittle</title>
+    <link>https://www.awhittle2.com/write-ups/</link>
+    <description>Recent content in Write-ups on Abigail Whittle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 20:00:00 +0000</lastBuildDate><atom:link href="https://www.awhittle2.com/write-ups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF League - mini-ject</title>
+      <link>https://www.awhittle2.com/write-ups/mini-ject/</link>
+      <pubDate>Mon, 16 Oct 2023 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/write-ups/mini-ject/</guid>
+      <description>Download/Access: http://mini-ject.ctf-league.osusec.org/
+Description: I made a private notes app and decided to release it out into the world. It&amp;rsquo;s my first big project so hopefully nothing goes wrong!
+Background on SQL attacks:
+You (the client) &amp;lt;-&amp;gt; (talks to) the webserver &amp;lt;-&amp;gt; (talks to) the database The #1 web vulnerability is unsanitized user input All HTML/CSS/JS are just interpreted text files If you can control what gets put on the page (aka the text file), then you can control how it is interpreted Types of attacks include: Cross site scripting Local/remote file inclusion Insecure direct object reference SQL injection Example of an SQL string: &amp;ldquo;SELECT user_id FROM users WHERE username = &amp;lsquo;a&amp;rsquo; AND password = &amp;lsquo;b&amp;rsquo;;&amp;rdquo; We can manipulate this in many ways SELECT user_id FROM users WHERE username = &amp;lsquo;a&amp;rsquo; AND password = &amp;rsquo;&amp;rsquo; or &amp;lsquo;&amp;rsquo;; (Note that the user input in this case is &amp;ldquo;&amp;rsquo; or &amp;lsquo;&amp;rdquo;) SELECT user_id FROM users WHERE username = &amp;lsquo;&amp;rsquo;; &amp;ndash; &amp;rsquo; AND password = &amp;lsquo;b&amp;rsquo;; (Note that the user input in this case is &amp;ldquo;&amp;rsquo;; &amp;ndash; &amp;lsquo;&amp;rdquo;) Challenge 1 Other than the background info on SQL attacks (thus we already know it is an sql injection attack), we are simply given this website and told to hack into it.</description>
+    </item>
+    
+    <item>
+      <title>CTF League - Inspect Yourself</title>
+      <link>https://www.awhittle2.com/write-ups/inspect_yourself/</link>
+      <pubDate>Mon, 09 Oct 2023 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/write-ups/inspect_yourself/</guid>
+      <description>Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&amp;rsquo;t have time to check but hopefully I didn&amp;rsquo;t leave anything sensitive on there&amp;hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it.</description>
+    </item>
+    
+  </channel>
+</rss>

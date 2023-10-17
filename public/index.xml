@@ -2,30 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abigail Whittle</title>
-    <link>https://awhittle2.com/</link>
+    <link>https://www.awhittle2.com/</link>
     <description>Recent content on Abigail Whittle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://awhittle2.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 20:00:00 +0000</lastBuildDate><atom:link href="https://www.awhittle2.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://awhittle2.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>CTF League - mini-ject</title>
+      <link>https://www.awhittle2.com/write-ups/mini-ject/</link>
+      <pubDate>Mon, 16 Oct 2023 20:00:00 +0000</pubDate>
       
-      <guid>https://awhittle2.com/about/</guid>
-      <description>Hello :)</description>
+      <guid>https://www.awhittle2.com/write-ups/mini-ject/</guid>
+      <description>Download/Access: http://mini-ject.ctf-league.osusec.org/
+Description: I made a private notes app and decided to release it out into the world. It&amp;rsquo;s my first big project so hopefully nothing goes wrong!
+Background on SQL attacks:
+You (the client) &amp;lt;-&amp;gt; (talks to) the webserver &amp;lt;-&amp;gt; (talks to) the database The #1 web vulnerability is unsanitized user input All HTML/CSS/JS are just interpreted text files If you can control what gets put on the page (aka the text file), then you can control how it is interpreted Types of attacks include: Cross site scripting Local/remote file inclusion Insecure direct object reference SQL injection Example of an SQL string: &amp;ldquo;SELECT user_id FROM users WHERE username = &amp;lsquo;a&amp;rsquo; AND password = &amp;lsquo;b&amp;rsquo;;&amp;rdquo; We can manipulate this in many ways SELECT user_id FROM users WHERE username = &amp;lsquo;a&amp;rsquo; AND password = &amp;rsquo;&amp;rsquo; or &amp;lsquo;&amp;rsquo;; (Note that the user input in this case is &amp;ldquo;&amp;rsquo; or &amp;lsquo;&amp;rdquo;) SELECT user_id FROM users WHERE username = &amp;lsquo;&amp;rsquo;; &amp;ndash; &amp;rsquo; AND password = &amp;lsquo;b&amp;rsquo;; (Note that the user input in this case is &amp;ldquo;&amp;rsquo;; &amp;ndash; &amp;lsquo;&amp;rdquo;) Challenge 1 Other than the background info on SQL attacks (thus we already know it is an sql injection attack), we are simply given this website and told to hack into it.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://awhittle2.com/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Education</title>
+      <link>https://www.awhittle2.com/blog/education/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0000</pubDate>
       
-      <guid>https://awhittle2.com/projects/</guid>
-      <description>Projects Welcome to my projects page! Here you&amp;rsquo;ll find a showcase of my diverse creations, spanning various technologies and disciplines, each designed to provide engaging experiences for a wide range of audiences.
-Mario-Inspired Platformer Duration: March 2023 - Present
-Technologies:
- 6502 Assembly NES Architecture  Vivi&amp;rsquo;s Dreamland Adventure is a Mario like platformer game developed for the Nintendo Entertainment System (NES) using 6502 Assembly language and adhering to the classic NES architecture.</description>
+      <guid>https://www.awhittle2.com/blog/education/</guid>
+      <description>Hi there! Here is a quick glimpse into all the college courses I have taken with the most relevant ones down below. Please note that I hope to graduate from Oregon State University with my Bachelors of Science in Computer Science with a Cybersecurity focus by Spring of 2025.
+Relevant Classes CS 424 - Cybersecurity Practicum I CS 372 - Intro to Networking CS 370 - Intro to Security CS 344 - Operating Systems I CS 312 - System Administration CS 290 - Web Development CS 271 - Computer Architecture and Assembly Saddleback Community College Summer 2020 MATH 253 - Intermediate Algebra</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.awhittle2.com/about/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/about/</guid>
+      <description>Hello there! I&amp;rsquo;m Abigail Whittle a Computer Science major from Oregon State University with a specialization in Cybersecurity. Through the course of my academic journey, I&amp;rsquo;ve been privileged to receive awards such as the CyberCorp&amp;rsquo;s Scholarship for Service, Western Undergraduate Exchange, and the Durcella Shepard Smith Award, all while maintaining a 4.0 GPA.
+Presently, I work as both a Tier 1 and Tier 2 Security Analyst at Oregon State University&amp;rsquo;s ORTSOC and a Student Systems Engineer at the Open Source Lab.</description>
+    </item>
+    
+    <item>
+      <title>CTF League - Inspect Yourself</title>
+      <link>https://www.awhittle2.com/write-ups/inspect_yourself/</link>
+      <pubDate>Mon, 09 Oct 2023 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/write-ups/inspect_yourself/</guid>
+      <description>Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&amp;rsquo;t have time to check but hopefully I didn&amp;rsquo;t leave anything sensitive on there&amp;hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.awhittle2.com/blog/first-post/</link>
+      <pubDate>Mon, 10 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/blog/first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+How to create this site Download hugo and git
+Type the commands:
+hugo new site quickstart cd quickstart git init git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng echo &amp;#34;theme = &amp;#39;hello-friend-ng&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server Add content: hugo new posts/my-first-post.md vim content/posts/my-first-post.md Edit the config file: Example Site vim config.toml Build the new content: hugo server --buildDrafts hugo server -D Publish: hugo You&amp;rsquo;re done!</description>
     </item>
     
   </channel>

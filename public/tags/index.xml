@@ -2,10 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Abigail Whittle</title>
-    <link>https://awhittle2.com/tags/</link>
+    <link>https://www.awhittle2.com/tags/</link>
     <description>Recent content in Tags on Abigail Whittle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://awhittle2.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 20:00:00 +0000</lastBuildDate><atom:link href="https://www.awhittle2.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ctf-league-fall-2023</title>
+      <link>https://www.awhittle2.com/tags/ctf-league-fall-2023/</link>
+      <pubDate>Mon, 16 Oct 2023 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/tags/ctf-league-fall-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.awhittle2.com/tags/web/</link>
+      <pubDate>Mon, 16 Oct 2023 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://www.awhittle2.com/tags/about/</link>
+      <pubDate>Sun, 15 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>random</title>
+      <link>https://www.awhittle2.com/tags/random/</link>
+      <pubDate>Mon, 10 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/tags/random/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

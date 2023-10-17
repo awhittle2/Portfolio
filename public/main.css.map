@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/awhittle2/Documents/hugo-site/quickstart",
+	"sourceRoot": "/home/vboxuser/hugo-site/Portfolio",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

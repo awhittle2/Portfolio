@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Abigail Whittle ">
+<meta name="description" content="Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&amp;rsquo;t have time to check but hopefully I didn&amp;rsquo;t leave anything sensitive on there&amp;hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it." />
+<meta name="keywords" content="portfolio, blog, homepage, ctf-league-fall-2023, web" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://www.awhittle2.com/write-ups/inspect_yourself/" />
+
+
+    <title>
+        
+            CTF League - Inspect Yourself :: Abigail Whittle 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="https://www.awhittle2.com/main.b78c3be9451dc4ca61ca377f3dc2cf2e6345a44c2bae46216a322ef366daa399.css" integrity="sha256-t4w76UUdxMphyjd/PcLPLmNFpEwrrkYhajIu82bao5k=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.awhittle2.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.awhittle2.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.awhittle2.com/favicon-16x16.png">
+    <link rel="manifest" href="https://www.awhittle2.com/site.webmanifest">
+    <link rel="mask-icon" href="https://www.awhittle2.com/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://www.awhittle2.com/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="CTF League - Inspect Yourself">
+<meta itemprop="description" content="Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&rsquo;t have time to check but hopefully I didn&rsquo;t leave anything sensitive on there&hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it."><meta itemprop="datePublished" content="2023-10-09T20:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-10-09T20:00:00+00:00" />
+<meta itemprop="wordCount" content="526"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-1.png"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-2.png"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-3.png"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-4.png"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-5.png"><meta itemprop="image" content="https://www.awhittle2.com/inspect-yourself-6.png">
+<meta itemprop="keywords" content="ctf-league-fall-2023,web," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.awhittle2.com/inspect-yourself-1.png"/>
+
+<meta name="twitter:title" content="CTF League - Inspect Yourself"/>
+<meta name="twitter:description" content="Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&rsquo;t have time to check but hopefully I didn&rsquo;t leave anything sensitive on there&hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it."/>
+
+
+
+    <meta property="og:title" content="CTF League - Inspect Yourself" />
+<meta property="og:description" content="Download/Access: http://inspect_yourself.ctf-league.osusec.org/
+Description: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&rsquo;t have time to check but hopefully I didn&rsquo;t leave anything sensitive on there&hellip;
+Challenge 1 The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.awhittle2.com/write-ups/inspect_yourself/" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-1.png" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-2.png" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-3.png" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-4.png" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-5.png" /><meta property="og:image" content="https://www.awhittle2.com/inspect-yourself-6.png" /><meta property="article:section" content="write-ups" />
+<meta property="article:published_time" content="2023-10-09T20:00:00+00:00" />
+<meta property="article:modified_time" content="2023-10-09T20:00:00+00:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2023-10-09 20:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://www.awhittle2.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text ">
+                $ cd /home/awhittle2</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://www.awhittle2.com/about/">About</a></li><li><a href="https://www.awhittle2.com/blog/">Blog</a></li><li><a href="https://www.awhittle2.com/resume.pdf">Resume</a></li><li><a href="https://www.awhittle2.com/write-ups/">Write-Ups</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://www.awhittle2.com/write-ups/inspect_yourself/">CTF League - Inspect Yourself</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><strong>Download/Access</strong>: <a href="http://inspect_yourself.ctf-league.osusec.org/">http://inspect_yourself.ctf-league.osusec.org/</a></p>
+<p><strong>Description</strong>: Boss told me to share my to-do list with everyone else to hold me accountable or something. He gave me an hour so I didn&rsquo;t have time to check but hopefully I didn&rsquo;t leave anything sensitive on there&hellip;</p>
+<hr>
+<h2 id="challenge-1">Challenge 1</h2>
+
+    <img src="inspect-yourself-1.png"  alt="Inspect Yourself Image 1"  class="center"  />
+
+
+<p>The only real information we were given going into this challenge is the website and the name of the challenge. Since we were not given much info, the first thing you should do when looking for a flag on a website is to either view the page source code or inspect it. Because the name of the challenge is &ldquo;Inspect Yourslef&rdquo;, I think inspecting it first is a good idea.</p>
+
+    <img src="inspect-yourself-2.png"  alt="Inspect Yourself Image 2"  class="center"  />
+
+
+<p>Here&rsquo;s how you do it:</p>
+<ol>
+<li>Right-click on the page</li>
+<li>Select <em>Inspect</em></li>
+</ol>
+
+    <img src="inspect-yourself-3.png"  alt="Inspect Yourself Image 3"  class="center"  />
+
+
+<p>And what do you know! Right off the bat there&rsquo;s flag 1! Now remove the comment tags and be on your way</p>
+<p><code>osu{7h3_l157_k33p5_g3771ng_l0ng3r}</code></p>
+<hr>
+<h2 id="challenge-2">Challenge 2</h2>
+<p>For this challenge, we were given a bit more information with the mention of &ldquo;cookies&rdquo;.</p>
+
+    <img src="inspect-yourself-4.png"  alt="Inspect Yourself Image 4"  class="center"  />
+
+
+<p>Here&rsquo;s how you view a website&rsquo;s cookies</p>
+<ol>
+<li>While still on the Inspect page, click the storage tag</li>
+<li>On the left, there should be a cookies drop down, make sure you click it</li>
+<li>Select the first (and only) cookie there</li>
+</ol>
+<p>Huh, that&rsquo;s weird&hellip; the cookie has a name of &ldquo;notflag&rdquo;. I think we should investigate that more.</p>
+<p>Here&rsquo;s the value of the cookie: <code>b3N1ezNuMHVnaF8wZl95MHVyX2I0czNsMzU1X2NsNDFtc30=</code></p>
+<p>It looks like this value is encoded. I also think it might be base64 since it seems to be padded out with an equals sign. Let&rsquo;s throw this into a <a href="https://www.base64decode.org/">base64 decoder</a> and see if we can get english out of it.</p>
+<p>That worked! We got the flag!</p>
+<p><code>osu{3n0ugh_0f_y0ur_b4s3l355_cl41ms}</code></p>
+<hr>
+<h2 id="challenge-3">Challenge 3</h2>
+<p>For this last challenge, we were told that the flag might be hiding in another page. Instead of gobustering (a tool which allows you to brute force the most common file and directory names on a website), lets first look at a few files.</p>
+<ol>
+<li>sitemap.xml</li>
+</ol>
+<p>According to google, &ldquo;A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them. Search engines like Google read this file to crawl your site more efficiently&rdquo;. Essentially, a sitemap can help search engines find all the different files and paths within a website without a lot of effort. Let&rsquo;s see if sitemap.xml can help us by appending &ldquo;/sitemap.xml&rdquo; to the website url.</p>
+
+    <img src="inspect-yourself-5.png"  alt="Inspect Yourself Image 5"  class="center"  />
+
+
+<p>Rats! Let&rsquo;s try a different way.</p>
+<ol start="2">
+<li>robots.txt</li>
+</ol>
+<p>According to google, &ldquo;A robots.txt file tells search engine crawlers which URLs the crawler can access on your site&rdquo;. This file can be accessed by typing &ldquo;/robots.txt&rdquo; onto the end of the url. Let&rsquo;s try that and see if we find anything.</p>
+
+    <img src="inspect-yourself-6.png"  alt="Inspect Yourself Image 6"  class="center"  />
+
+
+<p>Interesting&hellip;</p>
+<p>Since we are looking for a flag, let&rsquo;s try /flag first by appending it to teh url.</p>
+
+    <img src="inspect-yourself-7.png"  alt="Inspect Yourself Image 7"  class="center"  />
+
+
+<p>Rick Rolled&hellip;</p>
+<p>Now let&rsquo;s try /other using the same method.</p>
+
+    <img src="inspect-yourself-8.png"  alt="Inspect Yourself Image 8"  class="center"  />
+
+
+<p>Huh. That&rsquo;s weird. It loaded a page, but it&rsquo;s completely blank. Let&rsquo;s inspect it to see what&rsquo;s happening.</p>
+
+    <img src="inspect-yourself-9.png"  alt="Inspect Yourself Image 9"  class="center"  />
+
+
+<p>Wow! There&rsquo;s the last flag in the paragraph element within the body!</p>
+<p><code>osu{y0u_can_n3v3r_7ru57_y0ur_3y35}</code></p>
+<p>Let this be a lesson to always inspect a page, since you never know what could be lurking there.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.awhittle2.com/tags/ctf-league-fall-2023/">ctf-league-fall-2023</a></span>
+        <span class="tag"><a href="https://www.awhittle2.com/tags/web/">web</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2023</span>
+            <span><a href="https://www.awhittle2.com">Abigail Whittle</a></span>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://www.awhittle2.com/bundle.min.205d491810c28f95aa953fae884e1c27abe13fdf93ec63b882d0036b248d4a6282eb2d134e4e7225c6ad6e86db87b08488a361ca4a7383d01fcff43f3d57b9c3.js" integrity="sha512-IF1JGBDCj5WqlT&#43;uiE4cJ6vhP9&#43;T7GO4gtADaySNSmKC6y0TTk5yJcatbobbh7CEiKNhykpzg9Afz/Q/PVe5ww=="></script>
+
+
+
+    </body>
+</html>

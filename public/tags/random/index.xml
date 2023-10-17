@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random on Abigail Whittle</title>
+    <link>https://www.awhittle2.com/tags/random/</link>
+    <description>Recent content in random on Abigail Whittle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 10 Apr 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.awhittle2.com/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://www.awhittle2.com/blog/first-post/</link>
+      <pubDate>Mon, 10 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.awhittle2.com/blog/first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+How to create this site Download hugo and git
+Type the commands:
+hugo new site quickstart cd quickstart git init git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng echo &amp;#34;theme = &amp;#39;hello-friend-ng&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server Add content: hugo new posts/my-first-post.md vim content/posts/my-first-post.md Edit the config file: Example Site vim config.toml Build the new content: hugo server --buildDrafts hugo server -D Publish: hugo You&amp;rsquo;re done!</description>
+    </item>
+    
+  </channel>
+</rss>
