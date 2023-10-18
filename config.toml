@@ -133,7 +133,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/awhittle2"
+    logoText     = "$ cd /home/awhittle2/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -184,10 +184,6 @@ disableHugoGeneratorInject = false
     identifier = "blog"
     name       = "Blog"
     url        = "blog/"
-  [[menu.main]]
-    identifier = "write-ups"
-    name       = "Write-Ups"
-    url        = "write-ups/"
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
