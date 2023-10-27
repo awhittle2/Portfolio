@@ -1,5 +1,5 @@
 ---
-title: "CTF League - "
+title: "CTF League - YOCO"
 date: 2023-10-23T20:00:00-00:00
 draft: false
 toc: false
