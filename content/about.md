@@ -14,4 +14,4 @@ Presently, I work as both a Tier 1 and Tier 2 Security Analyst at Oregon State U
 
 But it's not all tech and security for me. I've also taken on leadership roles outside of the classroom as a Shift Leader at Cafe Yumm, where I had the chance to lead, train, and mentor a fanastic team of employees. Outside the professional sphere, I am deeply involved in extracurricular activities. As the current treasurer for [Oregon State University's Security Club](https://osusec.org/), I handle our funding, budgets, and reimbursements, and actively participate in hands-on cybersecurity activities. Two such activities include OSUSEC's 2023 [CyberForce](https://cyberforce.energy.gov/) and [CPTC](https://cp.tc/) teams, which I will have the pleasure of competing with in November.
 
-If you are interested, feel free to click to see more about my [education](/blog/education), 
+If you are interested, feel free to click to see more about my [education](/blog/education).
