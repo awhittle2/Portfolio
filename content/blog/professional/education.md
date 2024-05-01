@@ -121,28 +121,64 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 424 - Cybersecurity Practicum I
 
+#### Winter 2024
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 340 - Intro to Databases
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 425 - Cybersecurity Practicum II
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 427 - Cryptography
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 499 - Enterprise Defense
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;HHS 231 - Lifetime Fitness for Health
+
+#### Spring 2024
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 401 - Research
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 426 - Cybersecurity Practicum III
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 428 - Cybersecurity Project
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 473 - Intro to Digital Forensics
+ 
 ---
 
 ## Future Courses
 
 &nbsp;
 
-#### Winter 2024
+#### Summer 2024
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 340 - Intro to Databases
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 406 - Projects
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 399 - Intro to Robotics Programming
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 464 - Open Source Software
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 425 - Cybersecurity Practicum II
+#### Fall 2024
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 427 - Cryptography
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 474 - Operating Systems II
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 499 - Emperical Computer Security
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;TRAL 357 - Parks and Protected Areas Management
 
-#### Spring 2024
+#### Winter 2025
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 426 - Cybersecurity Practicum III
+ &nbsp;&nbsp;&nbsp;&nbsp;COMM 111Z - Public Speaking (3) 
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 428 - Cybersecurity Project
+ &nbsp;&nbsp;&nbsp;&nbsp;WR 227Z - Techninal Writing (4)
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 444 - Operating Systems II
+ &nbsp;&nbsp;&nbsp;&nbsp;FCSJ 261 - Food in American Culture (3)
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 473 - Intro to Digital Forensics
+ &nbsp;&nbsp;&nbsp;&nbsp;SOIL 205 - Soil Science (4)
+
+ &nbsp;&nbsp;&nbsp;&nbsp;BI 102 - Genes, Behavior & Evolution (4)
+
+#### Spring 2025
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 175 - Communications Security and Social Movements
+
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 373 - Defense Against the Dark Arts
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;CS 478 - Network Security
