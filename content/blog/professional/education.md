@@ -12,12 +12,15 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
 ### Relevant Classes
 - CS 424 - Cybersecurity Practicum I
-- CS 372 - Intro to Networking
-- CS 370 - Intro to Security
-- CS 344 - Operating Systems I
+- CS 425 - Cybersecurity Practicum II
+- CS 426 - Cybersecurity Practicum III
+- CS 428 - Cybersecurity Project
+- CS 499 - Enterprise Defense
+- CS 473 - Intro to Digital Forensics
 - CS 312 - System Administration
-- CS 290 - Web Development
+- CS 372 - Intro to Networking
 - CS 271 - Computer Architecture and Assembly
+- CS 427 - Cryptography
 
 &nbsp;
 
