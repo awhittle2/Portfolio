@@ -151,8 +151,6 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
 #### Summer 2024
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 406 - Projects
-
  &nbsp;&nbsp;&nbsp;&nbsp;CS 464 - Open Source Software
 
 #### Fall 2024
@@ -163,17 +161,15 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
  
  &nbsp;&nbsp;&nbsp;&nbsp;TRAL 357 - Parks and Protected Areas Management
 
+  &nbsp;&nbsp;&nbsp;&nbsp;FCSJ 261 - Food in American Culture
+
 #### Winter 2025
 
- &nbsp;&nbsp;&nbsp;&nbsp;COMM 111Z - Public Speaking (3) 
+ &nbsp;&nbsp;&nbsp;&nbsp;BI 102 - Genes, Behavior & Evolution
 
- &nbsp;&nbsp;&nbsp;&nbsp;WR 227Z - Techninal Writing (4)
+ &nbsp;&nbsp;&nbsp;&nbsp;SOIL 205 - Soil Science
 
- &nbsp;&nbsp;&nbsp;&nbsp;FCSJ 261 - Food in American Culture (3)
-
- &nbsp;&nbsp;&nbsp;&nbsp;SOIL 205 - Soil Science (4)
-
- &nbsp;&nbsp;&nbsp;&nbsp;BI 102 - Genes, Behavior & Evolution (4)
+ &nbsp;&nbsp;&nbsp;&nbsp;WR 227Z - Techninal Writing
 
 #### Spring 2025
 
@@ -182,3 +178,5 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
  &nbsp;&nbsp;&nbsp;&nbsp;CS 373 - Defense Against the Dark Arts
  
  &nbsp;&nbsp;&nbsp;&nbsp;CS 478 - Network Security
+
+ &nbsp;&nbsp;&nbsp;&nbsp;COMM 111Z - Public Speaking
