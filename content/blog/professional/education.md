@@ -11,16 +11,16 @@ tags:
 Hi there! Here is a quick glimpse into all the college courses I have taken with the most relevant ones down below. Please note that I hope to graduate from Oregon State University with my Bachelors of Science in Computer Science with a Cybersecurity focus by Spring of 2025.
 
 ### Relevant Classes
-- CS 424 - Cybersecurity Practicum I
-- CS 425 - Cybersecurity Practicum II
-- CS 426 - Cybersecurity Practicum III
-- CS 428 - Cybersecurity Project
-- CS 499 - Enterprise Defense
-- CS 473 - Intro to Digital Forensics
-- CS 312 - System Administration
-- CS 372 - Intro to Networking
-- CS 271 - Computer Architecture and Assembly
-- CS 427 - Cryptography
+- [CS 424](/blog/professional/cs-424.md) - Cybersecurity Practicum I
+- [CS 425](/blog/professional/cs-425.md) - Cybersecurity Practicum II
+- [CS 426](/blog/professional/cs-426.md) - Cybersecurity Practicum III
+- [CS 428](/blog/professional/cs-428.md) - Cybersecurity Project
+- [CS 499](/blog/professional/cs-499.md) - Enterprise Defense
+- [CS 473](/blog/professional/cs-473.md) - Intro to Digital Forensics
+- [CS 312](/blog/professional/cs-312.md) - System Administration
+- [CS 372](/blog/professional/cs-372.md) - Intro to Networking
+- [CS 271](/blog/professional/cs-271.md) - Computer Architecture and Assembly
+- [CS 427](/blog/professional/cs-427.md) - Cryptography
 
 &nbsp;
 
@@ -98,7 +98,7 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
 #### Winter 2023
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 271 - Computer Architecture & Assembly Language
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 271](/blog/professional/cs-271.md) - Computer Architecture & Assembly Language
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 321 - Intro to Theory of Computation
 
@@ -106,13 +106,13 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
 #### Spring 2023
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 312 - System Administration
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 312](/blog/professional/cs-312.md) - System Administration
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 344 - Operating Systems I
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 362 - Software Engineering II
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 372 - Intro to Computer Networks
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 372](/blog/professional/cs-372.md) - Intro to Computer Networks
 
 #### Fall 2023
 
@@ -122,17 +122,17 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 391 - Social & Ethical Issues in CS
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 424 - Cybersecurity Practicum I
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 424](/blog/professional/cs-424.md) - Cybersecurity Practicum I
 
 #### Winter 2024
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 340 - Intro to Databases
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 425 - Cybersecurity Practicum II
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 425](/blog/professional/cs-425.md) - Cybersecurity Practicum II
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 427 - Cryptography
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 427](/blog/professional/cs-427.md) - Cryptography
  
- &nbsp;&nbsp;&nbsp;&nbsp;CS 499 - Enterprise Defense
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 499](/blog/professional/cs-499.md) - Enterprise Defense
  
  &nbsp;&nbsp;&nbsp;&nbsp;HHS 231 - Lifetime Fitness for Health
 
@@ -140,11 +140,11 @@ Hi there! Here is a quick glimpse into all the college courses I have taken with
 
  &nbsp;&nbsp;&nbsp;&nbsp;CS 401 - Research
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 426 - Cybersecurity Practicum III
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 426](/blog/professional/cs-426.md) - Cybersecurity Practicum III
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 428 - Cybersecurity Project
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 428](/blog/professional/cs-428.md) - Cybersecurity Project
 
- &nbsp;&nbsp;&nbsp;&nbsp;CS 473 - Intro to Digital Forensics
+ &nbsp;&nbsp;&nbsp;&nbsp;[CS 473](/blog/professional/cs-473.md) - Intro to Digital Forensics
  
 ---
 
