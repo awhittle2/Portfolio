@@ -1,5 +1,5 @@
 ---
-title: "CTF League - mini-ject"
+title: "mini-ject"
 date: 2023-10-16T20:00:00-00:00
 draft: false
 toc: false
@@ -7,7 +7,7 @@ images:
   - mini-ject-1.png
   - mini-ject-2.png
 tags:
-  - ctf-league-fall-2023
+  - ctf-league-2023
   - web
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "CTF League - Inspect Yourself"
+title: "Inspect Yourself"
 date: 2023-10-09T20:00:00-00:00
 draft: false
 toc: false
@@ -14,7 +14,7 @@ images:
   - inspect-yourself-8.png
   - inspect-yourself-9.png
 tags:
-  - ctf-league-fall-2023
+  - ctf-league-2023
   - web
 ---
 

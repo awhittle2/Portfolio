@@ -1,11 +1,11 @@
 ---
-title: "CTF League - YOCO"
+title: "YOCO"
 date: 2023-10-23T20:00:00-00:00
 draft: false
 toc: false
 images:
 tags:
-  - ctf-league-fall-2023
+  - ctf-league-2023
   - crypto
 ---
 
