@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Abigail Whittle's Personal Portfolio and Blog"
+  description = "Abigail Whittle's Portfolio"
   keywords = "portfolio, blog, homepage"
   images = [""]
 
@@ -181,9 +181,13 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "blog/"
+    identifier = "certs"
+    name       = "Certifications"
+    url        = "certs/"
+  [[menu.main]]
+    identifier = "ctfs"
+    name       = "CTFs"
+    url        = "ctfs/"
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
